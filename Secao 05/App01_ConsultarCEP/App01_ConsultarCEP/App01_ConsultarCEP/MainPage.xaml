@@ -16,9 +16,11 @@
         <Label Text=""   x:Name="RESULTADO"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand"  />
-        
-        
-        
+
+
+       
+
+
     </StackLayout>
 
 </ContentPage>

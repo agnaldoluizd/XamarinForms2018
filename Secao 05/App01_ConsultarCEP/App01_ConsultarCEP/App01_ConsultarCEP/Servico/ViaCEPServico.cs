@@ -20,6 +20,9 @@ namespace App01_ConsultarCEP.Servico
             string Conteudo = WC.DownloadString(NovoEnderecoURL);
 
             Endereco end = JsonConvert.DeserializeObject<Endereco>(Conteudo) ;
+
+            if (end.cep == null) return null;
+
             return end;
 
             
